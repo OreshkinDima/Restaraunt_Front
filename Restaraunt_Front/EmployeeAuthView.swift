@@ -17,7 +17,8 @@ struct EmployeeAuthView: View {
         HStack {
             Rectangle()
                 .ignoresSafeArea()
-                .frame(width: 118, height: .infinity, alignment: .leading)
+                .frame(width: 100,  height: UIScreen.main.bounds.height)
+                //.frame(width: 118, height: .infinity, alignment: .leading)
                 .foregroundColor(Color("green"))
                 .opacity(0.8)
             Spacer()

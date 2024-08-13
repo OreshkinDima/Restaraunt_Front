@@ -15,8 +15,8 @@ struct ContentView: View {
         VStack {
             AuthView()
         }
-        .padding()
-       // .ignoresSafeArea(edges: .top)
+        //.padding()
+       .ignoresSafeArea()
     }
 }
 

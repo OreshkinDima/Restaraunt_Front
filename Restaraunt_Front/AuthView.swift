@@ -17,20 +17,27 @@ struct AuthView: View {
 
         HStack {
             Rectangle()
-                .ignoresSafeArea(edges: .top)
-                .frame(width: 118, height: .infinity, alignment: .leading)
+                //.ignoresSafeArea(edges: .top)
+               // .frame(width: visible ? nil : 0,
+               //                            height: visible ? nil : 0,
+                //                           alignment: .bottomTrailing)
+                //.frame(width: abs(p.size.width - padding))
+            
+                .frame(width: 100,  height: UIScreen.main.bounds.height)
+            
+                //.frame(width: 100, height: .infinity)
                 .foregroundColor(Color("green"))
                 .opacity(0.8)
                 
-            //Spacer()
+            Spacer()
             
-        }.ignoresSafeArea(edges: .top)
-        .background(Image("green_bg_2"))
-        //.background(Image("green_bg_2").resizable().aspectRatio(contentMode: .fill))
+        }//.ignoresSafeArea(edges: .top)
+        //.background(Image("green_bg_2"))
+        .background(Image("green_bg_2").resizable().aspectRatio(contentMode: .fill))
             
-          /*  .overlay {
+            .overlay {
                 VStack {
-                    TextField("Номер столика 777 ", text: $deskNumber)
+                    TextField("Номер столика ", text: $deskNumber)
                         .padding()
                         .background(.white)
                         .font(.title3)
@@ -46,8 +53,7 @@ struct AuthView: View {
                         .foregroundColor(.white)
                         .font(.title3.bold())
                 }.padding(.horizontal, 70)
-            }*/
-           /* .overlay(alignment: .bottomLeading) {
+            }.overlay(alignment: .bottomLeading) {
                 Button {
                     self.showEmployeeSignIn_2.toggle()
                     print("\(showEmployeeSignIn_2)")
@@ -55,13 +61,13 @@ struct AuthView: View {
                     Text("Вход для \n сотрудника")
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
-                        .padding(.leading)
+                        .padding(.bottom, 50)
                 }
                 
-            }*//*.sheet(isPresented: $showEmployeeSignIn_2, content: {
+            }.sheet(isPresented: $showEmployeeSignIn_2, content: {
                 EmployeeAuthView()
             })
-            .fullScreenCover(isPresented: $showEmployeeSignIn_2, content: {
+            /*.fullScreenCover(isPresented: $showEmployeeSignIn_2, content: {
                 EmployeeAuthView()
             })*/
 
