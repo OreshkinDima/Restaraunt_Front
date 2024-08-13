@@ -30,7 +30,7 @@ struct AuthView: View {
             
           /*  .overlay {
                 VStack {
-                    TextField("Номер столика", text: $deskNumber)
+                    TextField("Номер столика 777 ", text: $deskNumber)
                         .padding()
                         .background(.white)
                         .font(.title3)
