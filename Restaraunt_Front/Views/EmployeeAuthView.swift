@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct EmployeeAuthView: View {
+    
+    @State var login: String = ""
+    @State var password: String = ""
+    @State var showAdminMenu: Bool = false
+    
     var body: some View {
-        
-        @State var login: String = ""
-        @State var password: String = ""
-        //@State var showEmployeeSignIn2: Bool = false
         
         HStack {
             Rectangle()
@@ -43,6 +44,7 @@ struct EmployeeAuthView: View {
 
                     Button {
                         print("Vhod")
+                        self.showAdminMenu.toggle()
                     } label: {
                         Text("Войти!")
                            
@@ -52,6 +54,8 @@ struct EmployeeAuthView: View {
                         .foregroundColor(.white)
                         .font(.title3.bold())
                 }.padding(.horizontal, 70)
+            }.fullScreenCover(isPresented: $showAdminMenu) {
+                MenuAdminView()
             }
     }
 }
