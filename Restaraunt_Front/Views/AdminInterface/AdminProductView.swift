@@ -6,21 +6,45 @@
 //
 
 import SwiftUI
+import PhotosUI
 
+//@available(iOS 16.0, *)
 struct AdminProductView: View {
     
     @State var title: String = ""
     @State var price: Int?
     @State var category: Category = .first
     @State var description: String = ""
+  //  @State var selectedItem: PhotosPickerItem?
+   // @State var data: Data?
     
     
     var body: some View {
         VStack{
-            Image(systemName: "camera")
-                .resizable()
-                .frame(width: 240, height: 200)
-                .aspectRatio(contentMode: .fit)
+           /* PhotosPicker(selection: $selectedItem) {
+                if let data {
+                    Image(uiImage: UIImage(data: data)!)
+                        .resizable()
+                        .frame(width: 240, height: 200)
+                        .aspectRatio(contentMode: .fit)
+                }
+                else {
+                    Image(systemName: "camera")
+                        .resizable()
+                        .frame(width: 240, height: 200)
+                        .aspectRatio(contentMode: .fit)
+                }
+            }.onChange(of: selectedItem) { newValue in
+                guard let selectedItem else {return}
+                selectedItem.loadTransferable(type: Data.self) { result in
+                    switch result {
+                    case .success(let success):
+                        if let success {self.data = success}
+                    case .failure(let failure):
+                        print("Ошибка. Данные не найдены \(failure)")
+                    }
+                }
+            }*/
             TextField("Название", text: $title)
                 .padding()
                 .background(.white)
@@ -64,7 +88,11 @@ struct AdminProductView: View {
 
 struct AdminProductView_Previews: PreviewProvider {
     static var previews: some View {
-        AdminProductView()
+        if #available(iOS 16.0, *) {
+            AdminProductView()
+        } else {
+            // Fallback on earlier versions
+        }
     }
 }
 

@@ -12,6 +12,7 @@ struct EmployeeAuthView: View {
     @State var login: String = ""
     @State var password: String = ""
     @State var showAdminMenu: Bool = false
+    @State var user: User?
     
     var body: some View {
         
@@ -37,14 +38,22 @@ struct EmployeeAuthView: View {
                         .background(.white)
                         .font(.title3)
                     
-                    SecureField("Password", text: $password)
+                    TextField("Password", text: $password)
                         .padding()
                         .background(.white)
                         .font(.title3)
 
                     Button {
-                        print("Vhod")
-                        self.showAdminMenu.toggle()
+                        Task{
+                            do {
+                                self.user = try await NetworkService.shared.auth(login: login, password: password)
+                                print("Vhod")
+                                self.showAdminMenu.toggle()
+                            } catch {
+                                print("Ошибка аутентификации")
+                            }
+                        }
+
                     } label: {
                         Text("Войти!")
                            
@@ -55,7 +64,7 @@ struct EmployeeAuthView: View {
                         .font(.title3.bold())
                 }.padding(.horizontal, 70)
             }.fullScreenCover(isPresented: $showAdminMenu) {
-                MenuAdminView()
+                MenuAdminView(user:user)
             }
     }
 }

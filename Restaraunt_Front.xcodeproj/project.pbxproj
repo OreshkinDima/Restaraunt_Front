@@ -12,6 +12,8 @@
 		810FA78E2C6C8DB20046B32F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FA78D2C6C8DB10046B32F /* Product.swift */; };
 		810FA7902C6C8F2C0046B32F /* AdminProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FA78F2C6C8F2C0046B32F /* AdminProductCell.swift */; };
 		810FA7922C6C96980046B32F /* AdminProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FA7912C6C96980046B32F /* AdminProductView.swift */; };
+		811181472C6DECC6002F0386 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811181462C6DECC6002F0386 /* NetworkService.swift */; };
+		811181492C6DEE2A002F0386 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811181482C6DEE2A002F0386 /* User.swift */; };
 		812CCD6A2C663D6C0081BB0A /* Restaraunt_FrontApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812CCD692C663D6C0081BB0A /* Restaraunt_FrontApp.swift */; };
 		812CCD6C2C663D6C0081BB0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812CCD6B2C663D6C0081BB0A /* ContentView.swift */; };
 		812CCD6E2C663D6F0081BB0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812CCD6D2C663D6F0081BB0A /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 		810FA78D2C6C8DB10046B32F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		810FA78F2C6C8F2C0046B32F /* AdminProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProductCell.swift; sourceTree = "<group>"; };
 		810FA7912C6C96980046B32F /* AdminProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProductView.swift; sourceTree = "<group>"; };
+		811181462C6DECC6002F0386 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		811181482C6DEE2A002F0386 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		812CCD662C663D6C0081BB0A /* Restaraunt_Front.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaraunt_Front.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812CCD692C663D6C0081BB0A /* Restaraunt_FrontApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaraunt_FrontApp.swift; sourceTree = "<group>"; };
 		812CCD6B2C663D6C0081BB0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +72,23 @@
 			path = AdminInterface;
 			sourceTree = "<group>";
 		};
+		8111814A2C6DF242002F0386 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				811181482C6DEE2A002F0386 /* User.swift */,
+				810FA78D2C6C8DB10046B32F /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8111814B2C6DF24D002F0386 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				811181462C6DECC6002F0386 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		812CCD5D2C663D6C0081BB0A = {
 			isa = PBXGroup;
 			children = (
@@ -87,8 +108,9 @@
 		812CCD682C663D6C0081BB0A /* Restaraunt_Front */ = {
 			isa = PBXGroup;
 			children = (
+				8111814B2C6DF24D002F0386 /* Service */,
+				8111814A2C6DF242002F0386 /* Model */,
 				812CCD692C663D6C0081BB0A /* Restaraunt_FrontApp.swift */,
-				810FA78D2C6C8DB10046B32F /* Product.swift */,
 				810FA7872C6C89880046B32F /* Views */,
 				812CCD6D2C663D6F0081BB0A /* Assets.xcassets */,
 				812CCD6F2C663D6F0081BB0A /* Preview Content */,
@@ -174,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811181472C6DECC6002F0386 /* NetworkService.swift in Sources */,
 				810FA7892C6C89B00046B32F /* MenuAdminView.swift in Sources */,
 				812CCD6C2C663D6C0081BB0A /* ContentView.swift in Sources */,
 				812CCD6A2C663D6C0081BB0A /* Restaraunt_FrontApp.swift in Sources */,
@@ -183,6 +206,7 @@
 				812CCD782C663E2F0081BB0A /* AuthView.swift in Sources */,
 				810FA7922C6C96980046B32F /* AdminProductView.swift in Sources */,
 				810FA78E2C6C8DB20046B32F /* Product.swift in Sources */,
+				811181492C6DEE2A002F0386 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

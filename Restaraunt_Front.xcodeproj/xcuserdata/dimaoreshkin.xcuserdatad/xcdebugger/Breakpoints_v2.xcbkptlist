@@ -36,5 +36,382 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05F0D1D8-17DF-4025-BE10-0AB4AEEF5DA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restaraunt_Front/Views/EmployeeAuthView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "05F0D1D8-17DF-4025-BE10-0AB4AEEF5DA9 - 98270bc15b2842ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Restaraunt_Front.EmployeeAuthView.body.getter : some"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Views/EmployeeAuthView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "79">
+               </Location>
+               <Location
+                  uuid = "05F0D1D8-17DF-4025-BE10-0AB4AEEF5DA9 - 396ce2b6da46b8d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Restaraunt_Front.EmployeeAuthView.body.getter : some"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Views/EmployeeAuthView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "05F0D1D8-17DF-4025-BE10-0AB4AEEF5DA9 - 73a66a56216e8ec8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Restaraunt_Front.EmployeeAuthView.body.getter : some"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Views/EmployeeAuthView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "05F0D1D8-17DF-4025-BE10-0AB4AEEF5DA9 - 78653dafb2922cc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.font(Swift.Optional&lt;SwiftUI.Font&gt;) -&gt; some&gt;&gt;.0)&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in Restaraunt_Front.EmployeeAuthView.body.getter : some"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Views/EmployeeAuthView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B851F8CF-6B29-48B8-B486-395E6AD16C11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restaraunt_Front/Views/EmployeeAuthView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DAB55388-179A-44BD-BD34-496AC278FE92"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restaraunt_Front/Views/EmployeeAuthView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6AC8776B-3A04-45E8-A3F2-4D898EECE337"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restaraunt_Front/Service/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "auth(login:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6AC8776B-3A04-45E8-A3F2-4D898EECE337 - 8dec736059637da2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "361">
+               </Location>
+               <Location
+                  uuid = "6AC8776B-3A04-45E8-A3F2-4D898EECE337 - 8dec736059637da2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "330">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA2FEE11-030E-4799-9458-8D4ED2764A7B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restaraunt_Front/Service/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "auth(login:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA2FEE11-030E-4799-9458-8D4ED2764A7B - 8dec736059637de0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "479">
+               </Location>
+               <Location
+                  uuid = "EA2FEE11-030E-4799-9458-8D4ED2764A7B - 8dec736059637de0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "448">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC8EF0A0-9ACD-419F-AB0E-29E02A4EF687"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restaraunt_Front/Service/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "auth(login:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EC8EF0A0-9ACD-419F-AB0E-29E02A4EF687 - 58b0969c334a386a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "EC8EF0A0-9ACD-419F-AB0E-29E02A4EF687 - 58b0969c334a386a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44ED4BA1-DDE9-4639-8B84-6004AAE51D8C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restaraunt_Front/Service/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "auth(login:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "44ED4BA1-DDE9-4639-8B84-6004AAE51D8C - 8dec736059637cc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1742">
+               </Location>
+               <Location
+                  uuid = "44ED4BA1-DDE9-4639-8B84-6004AAE51D8C - 2aa8425182512720"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "44ED4BA1-DDE9-4639-8B84-6004AAE51D8C - 58b0969c334a38cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "234">
+               </Location>
+               <Location
+                  uuid = "44ED4BA1-DDE9-4639-8B84-6004AAE51D8C - 4de6fbaec63946cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "44ED4BA1-DDE9-4639-8B84-6004AAE51D8C - 8dec736059637cc9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1690">
+               </Location>
+               <Location
+                  uuid = "44ED4BA1-DDE9-4639-8B84-6004AAE51D8C - 2aa8425182512720"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  uuid = "44ED4BA1-DDE9-4639-8B84-6004AAE51D8C - 4de6fbaec63946cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Restaraunt_Front.NetworkService.auth(login: Swift.String, password: Swift.String) async throws -&gt; Restaraunt_Front.User"
+                  moduleName = "Restaraunt_Front"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dimaoreshkin/Documents/swift%20Education/SwiftUI/Restaraunt_Front/Restaraunt_Front/Restaraunt_Front/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "111">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

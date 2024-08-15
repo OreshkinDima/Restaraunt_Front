@@ -10,6 +10,7 @@ import SwiftUI
 struct MenuAdminView: View {
     
     @State var showAdminProductView = false
+    @State var user: User?
     var body: some View {
         List {
             ForEach(defProducts) { product in
@@ -51,6 +52,9 @@ struct MenuAdminView: View {
             }
             .sheet(isPresented: $showAdminProductView) {
                 AdminProductView()
+            }
+            .onAppear {
+                print(user?.login ?? "пользователь не найден")
             }
     }
 }
